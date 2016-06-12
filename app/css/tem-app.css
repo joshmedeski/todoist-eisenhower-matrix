@@ -1,0 +1,144 @@
+/*
+ * Todoist Eisenhower Matrix Chrome App
+ *
+ * Font
+ * "Open Sans"
+ *
+ * Colors
+ * $white: #ffffff;
+ * $black: #303333;
+ * $todoist: #e94039;
+ * $priority1: #b0000c;
+ * $priority2: #fc7e36;
+ * $priority3: #febf4e;
+ * $priority4: #8a8a8a;
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+  line-height: 1;
+  margin: 0;
+}
+
+.color-priority1 {
+  color: #b0000c;
+}
+
+.color-priority2 {
+  color: #fc7e36;
+}
+
+.color-priority3 {
+  color: #febf4e;
+}
+
+.color-priority4 {
+  color: #8a8a8a;
+}
+
+.bg-priority1 {
+  background-color: #b0000c;
+}
+.bg-priority2 {
+  background-color: #fc7e36;
+}
+.bg-priority3 {
+  background-color: #febf4e;
+}
+.bg-priority4 {
+  background-color: #8a8a8a;
+}
+
+.border-priority1 {
+  border-color: #b0000c;
+}
+.border-priority2 {
+  border-color: #fc7e36;
+}
+.border-priority3 {
+  border-color: #febf4e;
+}
+.border-priority4 {
+  border-color: #8a8a8a;
+}
+
+/* Title */
+
+.title {}
+
+.title__icon {
+  float: left;
+  height: 43px;
+  margin-right: 8px;
+}
+
+.title__text {}
+
+/* Matrix */
+
+.matrix {
+  display: flex;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
+  border-left: 5px solid #303333;
+  border-bottom: 5px solid #303333;
+}
+
+.matrix__panel {
+  border-style: solid;
+  border-width: 5px;
+  height: 300px;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  overflow-y: scroll;
+  width: 49%;
+}
+
+.matrix__title {
+  border-width: 0 0 5px 0;
+  border-style: solid;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.matrix__list {
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-top: 16px;
+  padding-left: 0;
+  padding: 16px;
+}
+
+.matrix__list > li:before {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  content: '';
+  display: inline-block;
+  height: 14px;
+  margin-bottom: -3px;
+  margin-right: 8px;
+  width: 14px;
+}
+
+.matrix__list.border-priority1 > li:before {
+  border-color: #b0000c;
+}
+.matrix__list.border-priority2 > li:before {
+  border-color: #fc7e36;
+}
+.matrix__list.border-priority3 > li:before {
+  border-color: #febf4e;
+}
+.matrix__list.border-priority4 > li:before {
+  border-color: #8a8a8a;
+}
