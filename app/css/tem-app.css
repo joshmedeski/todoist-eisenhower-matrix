@@ -104,16 +104,13 @@ h2 {
 }
 
 .matrix__title {
-  border-width: 0 0 5px 0;
-  border-style: solid;
+  color: #ffffff;
   padding: 16px;
-  background-color: #ffffff;
 }
 
 .matrix__list {
   list-style-type: none;
-  margin-bottom: 0;
-  margin-top: 16px;
+  margin: 0;
   padding-left: 0;
   padding: 16px;
 }
