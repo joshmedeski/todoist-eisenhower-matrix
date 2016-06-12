@@ -2,7 +2,7 @@
 
 Sort your Todoist tasks by urgency and importance.
 
-[Download from the Chrome Store]()
+Download from the Chrome Store (Coming soon)
 
 ## Credits
 
@@ -17,4 +17,3 @@ Sort your Todoist tasks by urgency and importance.
 - [ ] Add support for filtering tasks
 - [ ] Add support for drag-and-drop
 - [ ] Add support for offline access
-
